@@ -26,5 +26,4 @@ UI.addChatLine = function(Bt, Xt, Gt) {
 	console.log(Bt)
 };
 
-UI.addChatLine(1, 2, 3)
-
+UI.addChatLine(1, 2, 3);
