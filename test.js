@@ -23,7 +23,7 @@ UI.addChatLine = function(On, Ln, kn, Nn = !0) {};
 
 let UI_addChatLine = UI.addChatLine;
 UI.addChatLine = function(Bt, Xt, Gt) {
-	console.log(Bt, Xt, Gt)
+	console.log(Bt)
 };
 
 UI.addChatLine(1, 2, 3)
