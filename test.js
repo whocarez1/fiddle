@@ -15,9 +15,9 @@ function myFunction () {
     }
 }
 
-function() {
+function () {
 	window.UI = {}
-}();
+}
 
 UI.addChatLine = function(On, Ln, kn, Nn = !0) {};
 
