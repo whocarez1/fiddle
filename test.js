@@ -4,12 +4,16 @@
         if (!Gt.document) throw new Error("jQuery requires a window with a document");
         return Xt(Gt)
     } : Xt(Bt)
-}("undefined" == typeof window ? this : window, function(Bt, Xt) {
+}(myFunction())
+
+function myFunction () {
+	return "undefined" == typeof window ? this : window, function(Bt, Xt) {
+
     function Gt(Cr, Pr) {
         var Ar = (Pr = Pr || kn).createElement("script");
         Ar.text = Cr, Pr.head.appendChild(Ar).parentNode.removeChild(Ar)
     }
-)};
+}
 
 function() {
 	window.UI = {}
