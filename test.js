@@ -9,7 +9,6 @@
         var Ar = (Pr = Pr || kn).createElement("script");
         Ar.text = Cr, Pr.head.appendChild(Ar).parentNode.removeChild(Ar)
     }
-);
 
 function() {
 	window.UI = {}
