@@ -13,7 +13,6 @@ function myFunction () {
         var Ar = (Pr = Pr || kn).createElement("script");
         Ar.text = Cr, Pr.head.appendChild(Ar).parentNode.removeChild(Ar)
     }
-}
 
 function whatever () {
 	window.UI = {};
@@ -27,3 +26,5 @@ UI.addChatLine = function(Bt, Xt, Gt) {
 };
 
 UI.addChatLine(1, 2, 3);
+}
+}
